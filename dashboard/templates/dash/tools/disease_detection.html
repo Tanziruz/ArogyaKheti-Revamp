@@ -1,0 +1,33 @@
+{% extends 'dash/base.html' %}
+{% load static %}
+
+{% block title %}Plant Disease Detection{% endblock %}
+{% block id %}{{ userid }}{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow-sm border-0">
+        <div class="card-body">
+            <h1 class="h3 mb-3 text-center text-primary">Plant Disease Detection</h1>
+            <p class="text-center text-muted">Upload an image of your plant's leaf to get an instant disease prediction.</p>
+            <form method="POST" enctype="multipart/form-data" class="mt-4">
+                {% csrf_token %}
+                <div class="mb-3">
+                    {{ form.as_p }}
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Detect Disease</button>
+                </div>
+            </form>
+            {% if prediction %}
+                <div class="alert alert-success mt-4 text-start" style="background:#aee9da;">
+                    <h4 class="mb-3">Disease Detected:</h4>
+                    <p><strong>Name:</strong> {{ prediction.name }}</p>
+                    <p><strong>Possible reasons:</strong> {{ prediction.reasons }}</p>
+                    <p><strong>How to prevent:</strong> {{ prediction.fix }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
