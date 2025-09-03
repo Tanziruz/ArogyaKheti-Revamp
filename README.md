@@ -3,10 +3,6 @@
     <img src="./.github/assets/banner.jpg" height="400" />
 </h1>
 
-<p align="center">This is a modified version of the original ArogyaKheti Project by <a href="https://github.com/thearghyasarkar">theagrhyasarkar</a>. The original source code can be accessed <a href="https://github.com/thearghyasarkar/ArogyaKheti-Hack4Earth2023">here<a/>.</p> 
-    <p align="centre">The project <strong>ArogyaKheti</strong> aims to provide a user-friendly and simple web
-    interface for farmers of India to manage their day-to-day activities smartly. It was made as a project for <a
-        href="https://hackforearth.devpost.com/">Hack4Earth 2023</a></p>
 
 <h2 align="center">Problem Statement</h2>
 
@@ -47,14 +43,6 @@ issues and help farmers to increase their productivity and reduce food waste.
 
 <ul>
     <li>
-        <strong>Enhancing Communication between Farmers: </strong> The ArogyaKheti forum plays a vital role in enhancing
-        communication by
-        providing a collaborative platform where farmers can share knowledge, exchange ideas, and discuss challenges. It
-        facilitates the exchange of best practices, innovative techniques, and local wisdom, empowering farmers with
-        valuable insights. By providing a space for open dialogue, the forum helps farmers learn from one another, stay
-        updated on the latest agricultural trends, 1and collectively navigate obstacles.
-    </li>
-    <li>
         <strong>Helping Farmers stay Updated: </strong> ArogyaKheti users are provided with curated news articles which
         play a crucial role in keeping
         farmers informed with timely and relevant updates on weather, market trends, farming schemes, and policy
@@ -75,6 +63,11 @@ issues and help farmers to increase their productivity and reduce food waste.
         Recommendation Systems offer data-driven guidance to farmers. Both use Machine Learning with some real-time 
         data and soil health data to analyze and provide curated suggestions. Together, they maximize yields, reduce 
         waste, and promote sustainable farming.
+    </li>
+    <li>
+        <strong>Plant Disease Detection System:</strong> According to the statistic, more than 35% of all crops in India
+        die due to diseases. Out disease detection system integrates AI to provide the farmer with accurate results of the
+        disease occured in his/her crop along with the ways of preventing it enabling him to take quick action.
     </li>
     <li>
         <strong>AI-enabled Support Channels: </strong>AI-powered Chatbots curated for farmers to help them with their
@@ -110,9 +103,9 @@ issues and help farmers to increase their productivity and reduce food waste.
         <li>Simple and Intuitive UI/UX</li>
         <li>Mobile First UI to make it widely accessible</li>
         <li>FIDC-based Authentication System</li>
+        <li>Plant Disease Detection System</li>
         <li>Crop Recommendation System</li>
         <li>Fertilizer Recommendation System</li>
-        <li>The ArogyaKheti Forum</li>
         <li>A Public Portal</li>
         <li>Curated News Delivered Right to the Farmer's Dashboard</li>
         <li>AI-powered Support Channels</li>
@@ -180,8 +173,8 @@ issues and help farmers to increase their productivity and reduce food waste.
 - Clone the repository and navigate to the project directory
 
 ```
-git clone https://github.com/arghyagod-coder/ArogyaKheti-Hack4Earth2023.git
-cd ArogyaKheti-Hack4Earth2023
+git clone https://https://github.com/Tanziruz/ArogyaKheti-Revamp.git
+cd 
 ```
 - Make sure you have [Python](https://www.python.org/downloads/) installed. Install the dependencies.
 ```
