@@ -156,9 +156,9 @@ issues and help farmers to increase their productivity and reduce food waste.
 - [Fertilizer Recommendation](./model_code/Fertilizer_Predict.ipynb)
 
 ### APIs
-- [News API](https://newsapi.org/)
+- [World News API](https://worldnewsapi.com/)
 - [Crop Prices API](https://data.gov.in/resources/current-daily-price-various-commodities-various-markets-mandi)
-- [Google PaLM API](https://developers.generativeai.google/api/python/google/generativeai/chat)
+- [Google GEMINI API](https://aistudio.google.com/app/apikey)
 - [OpenWeather](https://openweathermap.org/api)
 
 <h2 align="center">Build Instructions</h2>
